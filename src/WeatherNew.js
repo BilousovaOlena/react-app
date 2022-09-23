@@ -1,4 +1,5 @@
 import React from "react";
+import FormatDate from "./FormatDate";
 import "./App.css";
 
 export default function WeatherNew(props) {
@@ -9,6 +10,9 @@ export default function WeatherNew(props) {
           <span id="city-name">{props.data.city}</span>
         </h1>
         <ul className="head">
+          <li>
+            <FormatDate date={props.data.date} />
+          </li>
           <li id="sky-up">{props.data.description}</li>
         </ul>
       </div>
