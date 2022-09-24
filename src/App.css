@@ -93,6 +93,10 @@ h1 {
   font-size: 24px;
   font-weight: bolder;
 }
+.main-temperature canvas {
+  position: relative;
+  top: 45px;
+}
 #temperature {
   margin-left: 10px;
   font-size: 64px;

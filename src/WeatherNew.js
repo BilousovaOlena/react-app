@@ -2,6 +2,7 @@ import React from "react";
 import FormatDate from "./FormatDate";
 import "./App.css";
 import WeatherIcon from "./WeatherIcon";
+import TempNew from "./TempNew";
 
 export default function WeatherNew(props) {
   return (
@@ -19,14 +20,10 @@ export default function WeatherNew(props) {
       </div>
       <div className="row first-row">
         <div className="col-6">
-          <div className="main-temperature">
+          <span className="main-temperature">
             <WeatherIcon code={props.data.icon} size={54} />
-
-            <strong id="temperature">
-              {Math.round(props.data.temperature)}
-            </strong>
-            <span>°C</span>
-          </div>
+            <TempNew celsius={Math.round(props.data.temperature)} />
+          </span>
         </div>
         <div className="col-6">
           <ul className="humidity-wind">
