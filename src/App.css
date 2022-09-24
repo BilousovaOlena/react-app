@@ -82,17 +82,20 @@ h1 {
   margin-bottom: 30px;
 }
 .main-temperature img {
+  margin-top: 10px;
   float: left;
   width: 64px;
   height: 64px;
 }
 .main-temperature span {
+  position: relative;
+  top: -26px;
   font-size: 24px;
   font-weight: bolder;
 }
 #temperature {
   margin-left: 10px;
-  font-size: 54px;
+  font-size: 64px;
   line-height: 1;
 }
 .humidity-wind {
