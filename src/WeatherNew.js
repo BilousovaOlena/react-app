@@ -31,7 +31,7 @@ export default function WeatherNew(props) {
         <div className="col-6">
           <ul className="humidity-wind">
             <li>
-              Humidity:
+              Humidity: &nbsp;
               <span id="humidity">{Math.round(props.data.humidity)}</span>%
             </li>
             <li>
