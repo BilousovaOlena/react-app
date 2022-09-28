@@ -10,12 +10,6 @@ export default function App() {
         <div className="wrapper">
           <div className="form" id="all-frame">
             <Search cityDefault="Toronto" />
-
-            <div className="card weatherDisplay">
-              <div className="card-body forecast-card">
-                <div className="forecast-display" id="forecast-display"></div>
-              </div>
-            </div>
           </div>
           <small>
             <a
