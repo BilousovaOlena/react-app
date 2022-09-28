@@ -21,7 +21,7 @@ export default function WeatherNew(props) {
       <div className="row first-row">
         <div className="col-6">
           <span className="main-temperature">
-            <WeatherIcon code={props.data.icon} size={54} />
+            <WeatherIcon code={props.data.icon} size={54} color={"lightgrey"} />
             <TempNew celsius={Math.round(props.data.temperature)} />
           </span>
         </div>

@@ -61,7 +61,7 @@ export default function Search(props) {
         <div className="card weatherDisplay">
           <div className="card-body forecast-card">
             <div className="forecast-display" id="forecast-display"></div>
-            <Forecast />
+            <Forecast coordinates={weather.coordinates} />
           </div>
         </div>
       </div>
